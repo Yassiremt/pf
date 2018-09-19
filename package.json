@@ -2,7 +2,7 @@
   "name": "portfolio_website",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://yassiremt.github.io/pf/",
+  "homepage":"https://yassiremt.github.io",
   "dependencies": {
     "animate.css": "^3.6.1",
     "bootstrap": "^4.1.3",
