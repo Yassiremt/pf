@@ -29,7 +29,7 @@ const Items = [
     text: "This app allows you to search in youtube videos .",
     img: img7,
     languages: ["React.js","Youtube api"],
-    link:"https://yassiremt.github.io/pf/"
+    link:"https://yassiremt.github.io/Youtube-Search-Api/"
   }, {
     title: "Factory management",
     text: "This app is for managing a factory .",
