@@ -1,0 +1,26 @@
+{
+  "name": "portfolio_website",
+  "version": "0.1.0",
+  "private": true,
+  "homepage":"https://yassiremt.github.io/pf/",
+  "dependencies": {
+    "animate.css": "^3.6.1",
+    "bootstrap": "^4.1.3",
+    "font-awesome": "^4.7.0",
+    "gh-pages": "^1.2.0",
+    "hover.css": "^2.3.2",
+    "npm": "^6.4.1",
+    "react": "^16.4.1",
+    "react-animated-css": "^1.0.4",
+    "react-dom": "^16.4.1",
+    "react-icons": "^3.0.5",
+    "react-scripts": "1.1.4",
+    "reactstrap": "^6.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "deploy": "gh-pages -d build",
+    "eject": "react-scripts eject"
+  }
+}

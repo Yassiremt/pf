@@ -1,0 +1,90 @@
+#Scont {
+  background: #6B440E url('../../Images/bg.png');
+  color: #6B7B0E;
+  box-shadow: 0px 0px 6px #222;
+  padding-bottom: 0 !important;
+}
+
+#Scont h4 {
+  text-shadow: 0px 0px 2px black;
+  color: #3B6B80;
+}
+
+#Scont h3 {
+  background: #474747 url('../../Images/bg.png');
+  color: #3B6B80;
+  text-shadow: 2px 2px 2px #1A1A1A;
+  font-weight: bolder;
+  font-size: 40px !important;
+  box-shadow: 0px 0px 3px #333;
+}
+
+#Scont a {
+  color: #888;
+}
+
+#Scont a:hover {
+  text-decoration: none;
+}
+
+#Scont ul {
+  color: #888;
+  font-size: 28px;
+  text-shadow: 0px 0px 2px black;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#Scont ul li {
+  text-align: left;
+  font-family: arial;
+  cursor: pointer;
+}
+
+#Scont p {
+  color: #888;
+  font-size: 20px;
+  text-shadow: 0px 0px 2px black;
+}
+
+#Scont .icons {
+  font-size: 40px;
+  text-align: left;
+  vertical-align: bottom;
+}
+
+#Scont .em {
+  font-size: 20px;
+}
+
+@media (max-width: 992px) {
+  #Scont h3 {
+    font-size: 30px !important;
+  }
+
+  #Scont ul {
+    font-size: 20px;
+  }
+
+  #Scont .em {
+    font-size: 16px;
+  }
+
+  #Scont .icons {
+    margin-right: 1rem !important;
+  }
+}
+
+@media (max-width: 366px) {
+  #Scont ul {
+    font-size: 22px;
+  }
+
+  #Scont .icons {
+    margin-right: 0.6rem !important;
+  }
+
+  #Scont .em {
+    font-size: 16px;
+  }
+}

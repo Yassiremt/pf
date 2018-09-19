@@ -1,0 +1,45 @@
+#home {
+  background: #6B440E url('../../Images/bg.png');
+  color: #6B7B0E;
+  text-shadow: 0px 0px 6px black;
+  box-shadow: 0px 0px 6px #222;
+  z-index: 1;
+  position: relative;
+  padding: 3rem !important;
+  margin-top: 8rem !important;
+}
+
+h3 {
+  font-size: 50px !important;
+}
+
+@media (max-width: 525px) {
+  h3 {
+    font-size: 30px !important;
+  }
+
+  p {
+    font-size: 20px !important;
+  }
+
+  .myBtn {
+    font-size: 16px !important;
+  }
+}
+
+p {
+  font-size: 25px;
+}
+
+.myBtn {
+  font-size: 24px;
+  padding: 10px 20px !important;
+  cursor: pointer;
+  background: #6B7B0E url('../../Images/bg.png') !important;
+  border-bottom: 3px solid #6B440E;
+  position: absolute;
+}
+
+.hvr-bounce-to-top::before {
+  background: #4B6E13 url('../../Images/bg.png') !important;
+}

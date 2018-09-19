@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "Sofia";
+  src: url("./Font/Haymaker.ttf");
+}
+
+.App {
+  text-align: center;
+  font-family: Sofia;
+}
+
+*::selection {
+  background: #666;
+  color: darkgreen;
+}
