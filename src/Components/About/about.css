@@ -33,8 +33,12 @@
 
 #Simg {
   background: #474747 url('../../Images/bg.png');
-  color: #1a2223;
+  color: grey;
   box-shadow: 0px 0px 6px #222;
+}
+
+#Simg a {
+  color: grey;
 }
 
 .icons {
@@ -43,25 +47,30 @@
 }
 
 .em:hover {
-  color: darkgrey;
+  color: darkgrey !important;
 }
 
 .yt:hover {
-  color: #9C1226;
+  color: #9C1226 !important;
 }
 
 .tt:hover {
-  color: #3B6B80;
+  color: #3B6B80 !important;
 }
 
 .li:hover {
-  color: #086292;
+  color: #086292 !important;
 }
 
 .gh:hover {
-  color: #010101;
+  color: #010101 !important;
 }
 
 .ig:hover {
-  color: #FB3958;
+  color: #FB3958 !important;
+}
+
+.dsbl, .dsbl:hover {
+  color: #5f5f5f !important;
+  cursor: default;
 }
