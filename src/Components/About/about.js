@@ -20,7 +20,7 @@ const About = () => {
           <h4>Hello My Friends ..</h4>
           <p>My name is YASSIRE MTIOUI,
             <br/>
-            I'm a freelance creative front‑end developer ,
+            I'm a creative full stack developer ,
             <br/>based in Fez Morocco .
           </p>
           <h3>Skills</h3>
