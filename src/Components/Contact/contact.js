@@ -4,7 +4,7 @@ import {Animated} from "react-animated-css";
 import {Container, Row, Col} from 'reactstrap';
 import {
   FaEnvelope,
-  FaInstagram,
+  FaGooglePlay,
   FaGithub,
   FaLinkedin,
   FaYoutube,
@@ -21,16 +21,25 @@ const Contact = () => {
           <h3>contact me</h3>
           <ul>
             <Row>
-            <Col md={6}>
-              <a href="mailto:yassiremtioui@gmail.com"><li className="em text-xs-center"><FaEnvelope className="icons mt-1 mx-1 mr-4"/>yassiremtioui@gmail.com</li></a>
-              <li className="ig text-xs-center"><FaInstagram className="icons mt-1 mx-1 mr-4"/>---- -----</li>
-              <a href="https://github.com/Yassiremt"><li className="gh text-xs-center"><FaGithub className="icons mt-1 mx-1 mr-4"/>Yassiremt</li></a>
-            </Col>
-            <Col md={6}>
-              <a href="https://www.linkedin.com/in/yassiremt/"><li className="li text-xs-center"><FaLinkedin className="icons mt-1 mx-1 mr-4"/>Yassire Mtioui</li></a>
-              <li className="yt text-xs-center"><FaYoutube className="icons mt-1 mx-1 mr-4"/>---- -----</li>
-              <li className="tt text-xs-center"><FaTwitterSquare className="icons mt-1 mx-1 mr-4"/>---- -----</li>
-            </Col></Row>
+              <Col md={6}>
+                <a href="mailto:yassiremtioui@gmail.com">
+                  <li className="em text-xs-center"><FaEnvelope className="icons mt-1 mx-1 mr-4"/>yassiremtioui@gmail.com</li>
+                </a>
+                <a href="https://play.google.com/store/apps/developer?id=YassiReact">
+                  <li className="ig text-xs-center"><FaGooglePlay className="icons mt-1 mx-1 mr-4"/>YassiReact</li>
+                </a>
+                <a href="https://github.com/Yassiremt">
+                  <li className="gh text-xs-center"><FaGithub className="icons mt-1 mx-1 mr-4"/>Yassiremt</li>
+                </a>
+              </Col>
+              <Col md={6}>
+                <a href="https://www.linkedin.com/in/yassiremt/">
+                  <li className="li text-xs-center"><FaLinkedin className="icons mt-1 mx-1 mr-4"/>Yassire Mtioui</li>
+                </a>
+                <li className="yt text-xs-center"><FaYoutube className="icons mt-1 mx-1 mr-4"/>---- -----</li>
+                <li className="tt text-xs-center"><FaTwitterSquare className="icons mt-1 mx-1 mr-4"/>---- -----</li>
+              </Col>
+            </Row>
           </ul>
         </Col>
 

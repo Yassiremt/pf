@@ -4,7 +4,7 @@ import {Animated} from "react-animated-css";
 import {Container, Row, Col} from 'reactstrap';
 import myimg from '../../Images/mypic.jpg';
 import {
-  FaInstagram,
+  FaGooglePlay,
   FaGithub,
   FaLinkedin,
   FaYoutube,
@@ -20,19 +20,19 @@ const About = () => {
           <h4>Hello My Friends ..</h4>
           <p>My name is YASSIRE MTIOUI,
             <br/>
-            I'm a creative full stack developer ,
+            I'm a creative React/ReactNative developer,
             <br/>based in Fez Morocco .
           </p>
           <h3>Skills</h3>
           <ul className="text-left pl-4">
             <Row>
               <Col>
-                <li>React.js</li>
+                <li>React/ReactNative</li>
+                <li>Redux</li>
+                <li>Firebase</li>
                 <li>Bootstrap</li>
                 <li>SASS</li>
                 <li>C#</li>
-                <li>HTML5</li>
-                <li>CSS3</li>
               </Col>
               <Col>
                 <li>SQL</li>
@@ -48,8 +48,9 @@ const About = () => {
         <Col md="4" id="Simg" className="p-0">
           <img className="img-fluid" src={myimg} alt=""/>
           <a href="mailto:yassiremtioui@gmail.com" className="em"><FaEnvelope className="icons mt-1 mx-1"/></a>
+          <a href="https://play.google.com/store/apps/developer?id=YassiReact" className="em">
+            <FaGooglePlay className="icons mt-1 mx-1 ig"/></a>
 
-          <FaInstagram className="icons mt-1 mx-1 ig dsbl"/>
           <a href="https://github.com/Yassiremt" className="gh">
             <FaGithub className="icons mt-1 mx-1"/></a>
           <a href="https://www.linkedin.com/in/yassiremt/" className="li">
