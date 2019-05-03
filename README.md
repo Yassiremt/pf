@@ -1,3 +1,3 @@
 This is My portfolio website
 The live version in https://yassire.com
-You can use/edit it ..
+You can use/edit it to create yours ..
