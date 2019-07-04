@@ -6,8 +6,17 @@ import img5 from './Images/prj5.png';
 import img6 from './Images/prj6.png';
 import img7 from './Images/prj7.png';
 import img8 from './Images/prj8.png';
+import img9 from './Images/prj9.png';
 const Items = [
   {
+    title: "Today Cocktail",
+    text: "Decide what to drink for today.",
+    img: img9,
+    languages: [
+      "ReactNative", "Redux", "Firebase", "Axios"
+    ],
+    link: "https://play.google.com/store/apps/details?id=com.today_cocktail"
+  }, {
     title: "Today Meal",
     text: "Decide what to eat for today.",
     img: img8,
@@ -15,7 +24,7 @@ const Items = [
       "ReactNative", "Redux", "Firebase", "Axios"
     ],
     link: "https://play.google.com/store/apps/details?id=com.today_meal"
-  }, {
+  },{
     title: "RoboFriends",
     text: "This app shows you some funny robots ,and you can search for a specific one .",
     img: img6,

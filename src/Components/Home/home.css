@@ -1,12 +1,17 @@
 #home {
-  background: #6B440E url('../../Images/bg.png');
-  color: #6B7B0E;
-  text-shadow: 0px 0px 6px black;
+  /* background: #58A4A1; */
+  color: #BCBCC2 !important;
+  text-shadow: -1px -1px 1px rgba(255, 255, 255, .1), 1px 1px 1px rgba(0, 0, 0, .7);
   box-shadow: 0px 0px 6px #222;
   z-index: 1;
   position: relative;
   padding: 3rem !important;
   margin-top: 8rem !important;
+  background:
+    linear-gradient(135deg, #38968D 21px, #186567 22px, #186567 24px, transparent 24px, transparent 67px, #186567 67px, #186567 69px, transparent 69px),
+    linear-gradient(225deg, #38968D 21px, #186567 22px, #186567 24px, transparent 24px, transparent 67px, #186567 67px, #186567 69px, transparent 69px)0 64px;
+  background-color: #38968D;
+  background-size: 64px 128px;
 }
 
 h3 {
@@ -35,11 +40,11 @@ p {
   font-size: 24px;
   padding: 10px 20px !important;
   cursor: pointer;
-  background: #6B7B0E url('../../Images/bg.png') !important;
-  border-bottom: 3px solid #6B440E;
+  background: #58A4A1;
+  border-bottom: 3px solid #186567;
   position: absolute;
 }
 
 .hvr-bounce-to-top::before {
-  background: #4B6E13 url('../../Images/bg.png') !important;
+  background: #186567 !important;
 }

@@ -1,5 +1,9 @@
 #Scont {
-  background: #6B440E url('../../Images/bg.png');
+  background:
+    linear-gradient(135deg, #38968D 21px, #186567 22px, #186567 24px, transparent 24px, transparent 67px, #186567 67px, #186567 69px, transparent 69px),
+    linear-gradient(225deg, #38968D 21px, #186567 22px, #186567 24px, transparent 24px, transparent 67px, #186567 67px, #186567 69px, transparent 69px)0 64px;
+  background-color: #38968D;
+  background-size: 64px 128px;
   color: #6B7B0E;
   box-shadow: 0px 0px 6px #222;
   padding-bottom: 0 !important;
@@ -11,16 +15,20 @@
 }
 
 #Scont h3 {
-  background: #474747 url('../../Images/bg.png');
-  color: #3B6B80;
+  background:
+    linear-gradient(135deg, #186567 21px, #38968D 22px, #38968D 24px, transparent 24px, transparent 67px, #38968D 67px, #38968D 69px, transparent 69px),
+    linear-gradient(225deg, #186567 21px, #38968D 22px, #38968D 24px, transparent 24px, transparent 67px, #38968D 67px, #38968D 69px, transparent 69px)0 64px;
+  background-color: #186567;
+  background-size: 64px 128px;
+  color: #BCBCC2 !important;
   text-shadow: 2px 2px 2px #1A1A1A;
   font-weight: bolder;
   font-size: 40px !important;
   box-shadow: 0px 0px 3px #333;
 }
 
-#Scont a {
-  color: #888;
+#Scont a {color: #363635;
+  text-shadow: 0.7px 0.7px 0.3px #32323255;
 }
 
 #Scont a:hover {
@@ -28,9 +36,9 @@
 }
 
 #Scont ul {
-  color: #888;
+  color: #363635;
+  text-shadow: 0.7px 0.7px 0.3px #32323255;
   font-size: 28px;
-  text-shadow: 0px 0px 2px black;
   list-style-type: none;
   padding-left: 0;
 }
@@ -43,8 +51,8 @@
 
 #Scont p {
   color: #888;
-  font-size: 20px;
   text-shadow: 0px 0px 2px black;
+  font-size: 20px;
 }
 
 #Scont .icons {

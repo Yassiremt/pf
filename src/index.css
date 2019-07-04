@@ -2,5 +2,19 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background: #3B6B80 url('./Images/bg.png') repeat center top !important;
+  /* background: #C1442A url('./Images/bg.png') repeat center top !important; */
+  /* background:
+    radial-gradient(circle farthest-side at 0% 50%, #C1442A 23.5%, rgba(240, 166, 17, 0) 0)21px 30px,
+    radial-gradient(circle farthest-side at 0% 50%, #363635 24%, rgba(240, 166, 17, 0) 0)19px 30px,
+    linear-gradient(#C1442A 14%, rgba(240, 166, 17, 0) 0, rgba(240, 166, 17, 0) 85%, #C1442A 0)0 0,
+    linear-gradient(150deg, #C1442A 24%, #363635 0, #363635 26%, rgba(240, 166, 17, 0) 0, rgba(240, 166, 17, 0) 74%, #363635 0, #363635 76%, #C1442A 0)0 0,
+    linear-gradient(30deg, #C1442A 24%, #363635 0, #363635 26%, rgba(240, 166, 17, 0) 0, rgba(240, 166, 17, 0) 74%, #363635 0, #363635 76%, #C1442A 0)0 0,
+    linear-gradient(90deg, #363635 2%, #C1442A 0, #C1442A 98%, #363635 0%)0 0 #C1442A;
+  background-size: 40px 60px; */
+  background: #136a8a;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #267871, #136a8a);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #267871, #136a8a);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
