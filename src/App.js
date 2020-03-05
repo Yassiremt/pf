@@ -22,6 +22,7 @@ class App extends Component {
   }
 
   render() {
+    
     return (<div className="App">
       <Menu onRouteChanged={this.onRouteChanged}/> {
         this.state.route === 'home'
